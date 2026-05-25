@@ -8,7 +8,7 @@
 
 ```bash
 # 저장소 클론
-git clone <repo-url>
+git clone https://github.com/yoooousir/liveklass.git
 cd web-event-pipeline
 
 # 전체 스택 빌드 & 실행 (DB 기동 → 이벤트 생성 → 분석 → 차트 저장)
