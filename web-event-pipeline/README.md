@@ -137,7 +137,7 @@ web-event-pipeline/
 ├── app/
 │   ├── generator.py      # Step 1·2: 이벤트 생성 & DB 저장
 │   ├── analytics.py      # Step 3·5: SQL 집계 & 차트 생성
-│   ├── entrypoint.sh     # generator → analytics 순 실행
+│   ├── entrypoints.sh     # generator → analytics 순 실행
 │   ├── requirements.txt
 │   └── Dockerfile
 ├── sql/
