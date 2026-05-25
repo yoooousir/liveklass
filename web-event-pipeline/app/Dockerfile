@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY generator.py  .
 COPY analytics.py  .
-COPY entrypoint.sh .
-RUN chmod +x entrypoint.sh
+COPY entrypoints.sh .
+RUN chmod +x entrypoints.sh
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./entrypoints.sh"]
